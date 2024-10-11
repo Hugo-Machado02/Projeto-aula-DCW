@@ -20,7 +20,7 @@ Crie listas ordenadas que se adaptam ao seu fluxo de trabalho e personaliza a su
 ## :globe_with_meridians: Tecnologias Utilizadas
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,bootstrap,vscode,git&perline=3)](https://skillicons.dev)
 
-## black_nib: Autores
+## :black_nib: Autores
 
 - Hugo Machado Mendes da Silva
 - Igor Guerra Pereira
