@@ -18,7 +18,8 @@ Crie listas ordenadas que se adaptam ao seu fluxo de trabalho e personaliza a su
 
 
 ## :globe_with_meridians: Tecnologias Utilizadas
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,bootstrap,vscode,git&perline=3)]
+![My Skills](https://skillicons.dev/icons?i=html,css,js,bootstrap,vscode,git)
+
 
 ## :black_nib: Autores
 
