@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Bloco de Notas</title>
+</head>
+<body>
+    <header id="navbar">
+        <div id="titulo">
+            <h1>Dashboard</h1>
+        </div>
+        <div id="menu">
+            <div class="pesquisar">
+                <input type="search" name="pesquisa" id="pesquisa" placeholder="Pesquisa">
+            </div>
+            <div class="configuracoes">
+                <button class="material-icons icones" id="btn_tema">dark_mode</button>
+            </div>
+            <div class="usuario">
+                <button class="material-icons icones">person</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Elemento - Direita -->
+        <div class="esquerdo">
+            <!-- Notas -->
+            <div class="bloco cima elemento">
+                <h2>Notas</h2>
+            </div>
+            <div class="bloco baixo">
+                <div class="sessao elemento">
+                    <h2>Lembretes</h2>
+                </div>
+                <div class="calendario elemento">
+                    <div id="tituloCalendario">
+                        <h2>Calendario</h2>
+                        <nav>
+                            <button id="anterior" class="material-icons botoes-calendario">chevron_left</button>
+                            <button id="proximo" class="material-icons botoes-calendario">chevron_right</button>
+                        </nav>
+                    </div>
+                    <section id="conteudoCalendario">
+                        <ul class="days">
+                            <li>Dom</li>
+                            <li>Seg</li>
+                            <li>Ter</li>
+                            <li>Qua</li>
+                            <li>Qui</li>
+                            <li>Sex</li>
+                            <li>Sab</li>
+                        </ul>
+                        <ul class="dates"></ul>
+                    </section>
+                </div>
+                <div class="sessao elemento">
+                    <h2>Baixo - Direito</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="direito elemento">
+            <!-- Notas -->
+            <div id="notas">
+                <div class="tituloElemento checklist">
+                    <h2>Equipamentos de informatica Basicas</h2>
+                    <button id="selectChecklist" class="material-icons icones">widgets</button>
+                </div>
+                <div class="conteudoElemento">
+                    <div id="operacoesChecklist">
+                        <button id="btn_seleciona_checklist" class="botaoCheck"><span class="material-icons">format_list_bulleted</span>Selecionar</button>
+                        <button id="btn_add_checklist" class="botaoCheck"><span class="material-icons">add</span>Adicionar</button>
+                    </div>
+                    <section>
+                        <ul id="lista">
+                            <li class="check">
+                                <input type="checkbox" checked id="desk1">
+                                <label for="desk1"></label>
+                                <p class="legenda">Monitor - 24 polegadas Gamer Ultra</p>
+                            </li>
+                            <li class="check">
+                                <input type="checkbox" checked id="desk2">
+                                <label for="desk2"></label>
+                                <p>Monitor - 24 polegadas Gamer Ultra</p>
+                            </li>
+                            <li class="check">
+                                <input type="checkbox" checked id="desk3">
+                                <label for="desk3"></label>
+                                <p>Monitor - 24 polegadas Gamer Ultra</p>
+                            </li>
+                            <li class="check">
+                                <input type="checkbox" checked id="desk4">
+                                <label for="desk4"></label>
+                                <p>Monitor - 24 polegadas Gamer Ultra</p>
+                            </li>
+                            <li class="check">
+                                <input type="checkbox" checked id="desk5">
+                                <label for="desk5"></label>
+                                <p>Monitor - 24 polegadas Gamer Ultra</p>
+                            </li>
+                            <li class="check">
+                                <input type="checkbox" checked id="desk6">
+                                <label for="desk6"></label>
+                                <p>Monitor - 24 polegadas Gamer Ultra</p>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
